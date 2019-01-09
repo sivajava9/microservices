@@ -9,7 +9,7 @@ public class Gallery {
 
     private Integer id;
 
-    private Object images;
+    private GalleryImageList images;
 
     public Integer getId() {
         return id;
@@ -19,11 +19,11 @@ public class Gallery {
         this.id = id;
     }
 
-    public Object getImages() {
+    public GalleryImageList getImages() {
         return images;
     }
 
-    public void setImages(final Object images) {
+    public void setImages(final GalleryImageList images) {
         this.images = images;
     }
 }
