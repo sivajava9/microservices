@@ -1,0 +1,15 @@
+spring:
+  application:
+    name:spring-cloud-zuul-security
+server:
+  port : 8088
+zuul:
+  routes:
+    backend-admin-service:
+      path : /backend/**
+      url : http://localhost:8082/
+      strip-prefix : true
+
+
+
+
